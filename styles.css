@@ -13,6 +13,9 @@ h1, h3 {
 a {
     padding-left: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 5%;
+    right: 29%;
 }
 
 /* Set the HTML and body to take up the full viewport */
