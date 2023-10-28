@@ -1,0 +1,8 @@
+[
+    { "Continent": "Africa", "Temp": 1.008 },
+    { "Continent": "North America", "Temp": 1.246 },
+    { "Continent": "South America", "Temp": 0.807 },
+    { "Continent": "Asia", "Temp": 1.75 },
+    { "Continent": "Europe", "Temp": 2.23 },
+    { "Continent": "Oceania", "Temp": 0.804 }
+]
