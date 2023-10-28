@@ -40,7 +40,7 @@ const g = svg.append('g');
 
 // async function to load temperature data
 async function loadTemperatureData() {
-    const tempData = await d3.json("../../data/temp.json");
+    const tempData = await d3.json("../data/temp.json");
     return tempData;
 }
 
