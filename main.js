@@ -67,7 +67,7 @@ loadTemperatureData()
                         const continentName = d.properties.CONTINENT; // tie var to continents
                         const temperatureChange = temperatureLookup[continentName];
                         if (temperatureChange == undefined) {
-                            return rgb(90, 161, 242);
+                            return 'rgb(90, 161, 242)';
                         } else {
                             return d3.interpolateReds(temperatureChange / 2); // color in continent based on temp data
                         }
