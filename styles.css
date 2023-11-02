@@ -1,24 +1,78 @@
-h1, h3 {
+h2, h3 {
     padding-left: 20px;
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: static;
+    top: 0;
+    left: 0;
 }
 
-#text, #world {
-    padding-left: 20px;
-    color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+    padding-top: 10px;
 }
 
-a {
-    padding-left: 20px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    top: 5%;
-    right: 29%;
+header {
+    background-color: rgb(55, 99, 149);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    color: white;
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 50px;
 }
 
-/* Set the HTML and body to take up the full viewport */
+.wrapper {
+    display: flex;
+    flex-grow: 1;
+    min-height: calc(100vh - 90px);
+}
+
+.verse {
+    list-style-type: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.left-column {
+    flex: 1.3;
+    /* background-color: #4c6444; */
+    color: black;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.left-column-content {
+    max-height: calc(100vh - 90px);
+    overflow: auto;
+}
+
+.left-column-content::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.right-column {
+    flex: 1.7;
+    display: flex;
+}
+
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    display: inline-flex;
+    padding-bottom: 10px;
+}
+
+strong {
+    padding-left: 5px;
+}
+
 html, body {
     width: 100%;
     height: 100%;
@@ -28,24 +82,29 @@ html, body {
     background-color: rgb(90, 161, 242);
 }
 
-/* Style the SVG to take up the full viewport */
-svg#map-container {
+svg {
     width: 100%;
     height: 100%;
-    position: absolute;
-    top: 80px;
-    left: 0px;
 }
 
 #legend {
     background-color: darkgray;
     border: 1px solid #888;
-    padding: 10px;
     font-size: 14px;
-    position: absolute;
-    top: 15%;
-    right: 15%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    width: 100px;
+    margin-right: 20px;
+    margin-top: 70px;
+    height: 75%;
+    padding: 10px;
 }
 
+.filler-verse {
+    height: 50px;
+}
+
+.right-column-content {
+    margin: 0;
+    padding: 0;
+}
