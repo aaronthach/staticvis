@@ -1,5 +1,5 @@
-const width = 1100;
-const height = 700;
+const width = 700;
+const height = 550;
 
 // define color scale for both map and legend
 const colorScale = d3.scaleSequential(d3.interpolateReds)
