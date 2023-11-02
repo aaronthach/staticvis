@@ -6,4 +6,6 @@ Or run the code locally by cloning the repository to your local machine and open
 
 Some feedback I recieved on my M3 designs was that the color encodings were unclear, so I included discrete colors for the different temperature changes of the continents, and included a legend to make it more clear. For some reason the dataset didn't include any data on Antarctica, so it is excluded from the map.
 
-Please apply 1 day extension to this assignment (extend deadline from 10/27 midnight to 10/28). Latest code update was before 10/28 midnight.
+Please apply 1 day extension to this assignment (extend deadline from 10/27 midnight to 10/28). Latest code update to vis was before 10/28 midnight.
+
+Website updated 11/2 to add poem with permission from Dr. Wall.
